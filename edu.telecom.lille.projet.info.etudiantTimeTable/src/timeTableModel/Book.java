@@ -17,32 +17,32 @@ private class Book {
 	/**
 	 * Description of the property RoomId.
 	 */
-	private int RoomId = 0;
+	private int RoomId;  
 
 	/**
 	 * Description of the property Login.
 	 */
-	private String Login = "";
+	private String Login ;
 
 	/**
 	 * Description of the property rooms.
 	 */
-	public Room rooms = null;
+	public Room rooms ;
 
 	/**
 	 * Description of the property BookingId.
 	 */
-	private int BookingId = 0;
+	private int BookingId  ;
 
 	/**
 	 * Description of the property DateEnd.
 	 */
-	private Date DateEnd = new Date();
+	private Date DateEnd  ;
 
 	/**
 	 * Description of the property DateBegin.
 	 */
-	private Date DateBegin = new Date();
+	private Date DateBegin ;
 
 	// Start of user code (user defined attributes for Book)
 
@@ -51,8 +51,13 @@ private class Book {
 	/**
 	 * The constructor.
 	 */
-	public Book() {
+	public Book(int _roomId,int _bookId,String _login,Date _dateBegin,Date _dateEnd) {
 		// Start of user code constructor for Book)
+        this.RoomId = _roomId;
+        this.BookingId = _bookId;
+        this.Login = _login;
+        this.DateBegin = _dateBegin;
+        this.DateEnd = _dateEnd;
 		super();
 		// End of user code
 	}

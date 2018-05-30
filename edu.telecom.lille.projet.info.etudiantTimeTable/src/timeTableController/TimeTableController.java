@@ -3,7 +3,7 @@ package timeTableController;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Hashtable;
-
+import java.util.Table;
 import org.jdom2.JDOMException;
 
 import timeTableModel.TimeTableDB;
@@ -26,6 +26,7 @@ public class TimeTableController implements ITimeTableController{
 	 * 
 	 */
 	TimeTableDB tTDB;
+    private Table<Book> books;
 	/**
 	 * Constructeur de controleur d'emplois du temps créant la base de données d'emplois du temps
 	 * 
@@ -34,6 +35,7 @@ public class TimeTableController implements ITimeTableController{
 
 	 */
 	public TimeTableController(String tTfile) {
+        books = new Hashtable<Book>();
 		TimeTableDB tTDB=new TimeTableDB(tTfile);
 		this.tTDB=tTDB;
 	}
@@ -101,6 +103,8 @@ public class TimeTableController implements ITimeTableController{
 	@Override
 	public boolean addBooking(int timeTableId, int bookingId, String login, Date dateBegin, Date dateEnd, int roomId) {
 		// TODO Auto-generated method stub
+        Book newBook = new Book(roomId,bookingId,login,dateBegin,dateEnd);
+        //ajouter cette novelle booking a HashTable   a modifier::
 		return false;
 	}
 
