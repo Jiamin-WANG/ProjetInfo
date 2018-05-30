@@ -30,8 +30,10 @@ public class Room {
 	/**
 	 * The constructor.
 	 */
-	public Room() {
+	public Room(int _roomId,int _capacity) {
 		// Start of user code constructor for Room)
+        this.RoomId = _roomId;
+        this.Capacity = _capacity;
 		super();
 		// End of user code
 	}
