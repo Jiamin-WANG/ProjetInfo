@@ -26,7 +26,8 @@ public class TimeTableController implements ITimeTableController{
 	 * 
 	 */
 	TimeTableDB tTDB;
-    private Table<Book> books;
+    private HashTable<Integer,Book> books;
+    private HashTable<Integer,TimeTable> timeTables;
 	/**
 	 * Constructeur de controleur d'emplois du temps créant la base de données d'emplois du temps
 	 * 
@@ -36,6 +37,7 @@ public class TimeTableController implements ITimeTableController{
 	 */
 	public TimeTableController(String tTfile) {
         books = new Hashtable<Book>();
+        timeTables = new HashTable<TimeTable>();
 		TimeTableDB tTDB=new TimeTableDB(tTfile);
 		this.tTDB=tTDB;
 	}
@@ -104,7 +106,7 @@ public class TimeTableController implements ITimeTableController{
 	public boolean addBooking(int timeTableId, int bookingId, String login, Date dateBegin, Date dateEnd, int roomId) {
 		// TODO Auto-generated method stub
         Book newBook = new Book(roomId,bookingId,login,dateBegin,dateEnd);
-        //ajouter cette novelle booking a HashTable   a modifier::
+        books.put(bookingId,newBook);
 		return false;
 	}
 
