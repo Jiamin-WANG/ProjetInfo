@@ -2,7 +2,6 @@
  * 2018, All rights reserved.
  *******************************************************************************/
 package timeTableModel;
-import java.util.*;
 
 // Start of user code (user defined imports)
 
@@ -31,20 +30,11 @@ public class Room {
 	/**
 	 * The constructor.
 	 */
-	public Room(int _roomId, int _capacity) {
+	public Room() {
 		// Start of user code constructor for Room)
 		super();
-		this.RoomId = _roomId;
-		this.Capacity = _capacity;
-		
 		// End of user code
 	}
-	
-	public String toString() {
-		return "RoomId is: "+this.RoomId+"\n"+
-				"Capacity is: "+this.Capacity;
-	}
-	
 
 	// Start of user code (user defined methods for Room)
 

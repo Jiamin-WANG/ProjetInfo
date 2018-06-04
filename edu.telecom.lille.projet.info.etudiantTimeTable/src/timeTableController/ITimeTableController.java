@@ -26,7 +26,7 @@ public interface ITimeTableController {
 	 * @return
 	 * 		Le login du professeur qui a fait la réservation.
 	 */
-	public String getTeacherLogin(int timeTableId, int bookId);
+	public String getTeacherLogin(String timeTableId, int bookId);
 	/**
 	 * Fonction qui crée une salle et qui la sauvegarde dans la base de données. 
 	 * @param roomId

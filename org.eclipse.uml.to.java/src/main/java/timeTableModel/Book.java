@@ -3,7 +3,7 @@
  *******************************************************************************/
 package timeTableModel;
 
-import java.util.*;
+import java.util.Date;
 // Start of user code (user defined imports)
 
 // End of user code
@@ -13,7 +13,7 @@ import java.util.*;
  * 
  * @author Jiamin WANG
  */
-public class Book {
+private class Book {
 	/**
 	 * Description of the property BookingId.
 	 */
@@ -51,14 +51,9 @@ public class Book {
 	/**
 	 * The constructor.
 	 */
-	public Book(int _bookingId,String _login,Date _dateBegin,Date _dateEnd, int _roomId) {
+	public Book() {
 		// Start of user code constructor for Book)
 		super();
-		this.BookingId = _bookingId;
-		this.Login = _login;
-		this.DateBegin = _dateBegin;
-		this.DateEnd = _dateEnd;
-		this.RoomId = _roomId;
 		// End of user code
 	}
 

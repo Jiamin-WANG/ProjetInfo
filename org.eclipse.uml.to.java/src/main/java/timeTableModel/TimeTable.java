@@ -2,7 +2,6 @@
  * 2018, All rights reserved.
  *******************************************************************************/
 package timeTableModel;
-import java.util.*;
 
 // Start of user code (user defined imports)
 
@@ -13,7 +12,7 @@ import java.util.*;
  * 
  * @author Jiamin WANG
  */
-public class TimeTable {
+private class TimeTable {
 	/**
 	 * Description of the property GroupId.
 	 */
@@ -22,7 +21,7 @@ public class TimeTable {
 	/**
 	 * Description of the property books.
 	 */
-	public Hashtable<String,Book> books = new Hashtable<String,Book>();
+	public Hashtable<Book> books = new Hashtable<Book>();
 
 	// Start of user code (user defined attributes for TimeTable)
 
@@ -32,14 +31,9 @@ public class TimeTable {
 	 * The constructor.
 	 */
 	public TimeTable() {
-		
-	}
-	
-	public TimeTable(int _groupId) {
 		// Start of user code constructor for TimeTable)
 		super();
-		this.GroupId = _groupId;
-	// End of user code
+		// End of user code
 	}
 
 	// Start of user code (user defined methods for TimeTable)
@@ -65,7 +59,7 @@ public class TimeTable {
 	 * Returns books.
 	 * @return books 
 	 */
-	public Hashtable<String,Book> getBooks() {
+	public Hashtable<Book> getBooks() {
 		return this.books;
 	}
 

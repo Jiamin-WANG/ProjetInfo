@@ -3,6 +3,18 @@
   <viewpoint:DAnalysis xmi:id="_9ECgMPvVEeW-4OPaS2iZdg" selectedViews="_9HjHMPvVEeW-4OPaS2iZdg _9HpN0PvVEeW-4OPaS2iZdg _9Hs4MPvVEeW-4OPaS2iZdg _9HvUcPvVEeW-4OPaS2iZdg _9Hy-0PvVEeW-4OPaS2iZdg _9ISHAPvVEeW-4OPaS2iZdg" version="12.1.0.201708031200">
     <semanticResources>model.uml</semanticResources>
     <semanticResources></semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
+    <semanticResources>http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>http://www.eclipse.org/uml2/5.0.0/UML</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>http://www.eclipse.org/uml2/5.0.0/Types</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_9HjHMPvVEeW-4OPaS2iZdg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Reused']"/>
     </ownedViews>
@@ -112,7 +124,7 @@
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_BWV0VmM9EeigKYG_E9Yqpw"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_BWV0UWM9EeigKYG_E9Yqpw" fontName="Microsoft YaHei UI" bold="true"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWV0UmM9EeigKYG_E9Yqpw" x="44" y="225" width="164" height="128"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWV0UmM9EeigKYG_E9Yqpw" x="44" y="225" width="171" height="128"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_316_QGNCEeigKYG_E9Yqpw" type="3009" element="_31oEUGNCEeigKYG_E9Yqpw">
               <children xmi:type="notation:Node" xmi:id="_316_Q2NCEeigKYG_E9Yqpw" type="5004"/>
@@ -184,13 +196,13 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_xjXcEGNCEeigKYG_E9Yqpw" type="4001" element="_xjEhJ2NCEeigKYG_E9Yqpw" source="__sFOkPvXEeW-4OPaS2iZdg" target="_eesrAGLDEeigKYG_E9Yqpw">
           <children xmi:type="notation:Node" xmi:id="_xjXcFGNCEeigKYG_E9Yqpw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjXcFWNCEeigKYG_E9Yqpw" x="51" y="9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjXcFWNCEeigKYG_E9Yqpw" x="3" y="-13"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_xjXcFmNCEeigKYG_E9Yqpw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjXcF2NCEeigKYG_E9Yqpw" x="7" y="5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjXcF2NCEeigKYG_E9Yqpw" x="-14" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_xjXcGGNCEeigKYG_E9Yqpw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjXcGWNCEeigKYG_E9Yqpw" x="-38" y="-3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjXcGWNCEeigKYG_E9Yqpw" x="-4" y="4"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_xjXcEWNCEeigKYG_E9Yqpw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_xjXcEmNCEeigKYG_E9Yqpw" fontName="Microsoft YaHei UI" fontHeight="8"/>
@@ -212,7 +224,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_0UrGEmNCEeigKYG_E9Yqpw" fontName="Microsoft YaHei UI" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0UrGE2NCEeigKYG_E9Yqpw" points="[0, 0, 112, -189]$[-112, 189, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0UrGGmNCEeigKYG_E9Yqpw" id="(0.0,0.6756756756756757)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0UrGG2NCEeigKYG_E9Yqpw" id="(1.0802469135802468,0.6111111111111112)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0UrGG2NCEeigKYG_E9Yqpw" id="(1.0355029585798816,0.6111111111111112)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_CBhwQGNGEeigKYG_E9Yqpw" type="4001" element="_CACigGNGEeigKYG_E9Yqpw" source="_316_QGNCEeigKYG_E9Yqpw" target="_eesrAGLDEeigKYG_E9Yqpw">
           <children xmi:type="notation:Node" xmi:id="_CBiXUGNGEeigKYG_E9Yqpw" type="6001">
@@ -243,7 +255,7 @@
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_MUO84WNLEeigKYG_E9Yqpw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_MUO84mNLEeigKYG_E9Yqpw" fontName="Microsoft YaHei UI" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MUO842NLEeigKYG_E9Yqpw" points="[0, 0, 21, -63]$[-21, 63, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MUO86mNLEeigKYG_E9Yqpw" id="(0.7345679012345679,1.0)"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MUO86mNLEeigKYG_E9Yqpw" id="(0.7041420118343195,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MUO862NLEeigKYG_E9Yqpw" id="(0.5632183908045977,0.0)"/>
         </edges>
       </data>
@@ -481,7 +493,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_InterfaceRealization']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_xjEhJ2NCEeigKYG_E9Yqpw" name="timeTableDBsToRooms" sourceNode="__eSDIPvXEeW-4OPaS2iZdg" targetNode="_eeGOEGLDEeigKYG_E9Yqpw" beginLabel="timeTableDBs[*]" endLabel="rooms[*]">
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_xjEhJ2NCEeigKYG_E9Yqpw" name="timeTableDBsToRooms" sourceNode="__eSDIPvXEeW-4OPaS2iZdg" targetNode="_eeGOEGLDEeigKYG_E9Yqpw" beginLabel="timeTableDBs[1]" endLabel="rooms[*]">
       <target xmi:type="uml:Association" href="model.uml#_xjEhIGNCEeigKYG_E9Yqpw"/>
       <semanticElements xmi:type="uml:Association" href="model.uml#_xjEhIGNCEeigKYG_E9Yqpw"/>
       <semanticElements xmi:type="uml:Property" href="model.uml#_xjEhJGNCEeigKYG_E9Yqpw"/>

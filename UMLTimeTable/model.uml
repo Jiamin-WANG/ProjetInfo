@@ -60,8 +60,8 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_xjEhIGNCEeigKYG_E9Yqpw" name="timeTableDBsToRooms" memberEnd="_xjEhIWNCEeigKYG_E9Yqpw _xjEhJGNCEeigKYG_E9Yqpw" navigableOwnedEnd="_xjEhJGNCEeigKYG_E9Yqpw">
       <ownedEnd xmi:id="_xjEhIWNCEeigKYG_E9Yqpw" name="timeTableDBs" type="_7t3Fh_vXEeW-4OPaS2iZdg" association="_xjEhIGNCEeigKYG_E9Yqpw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjEhImNCEeigKYG_E9Yqpw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xjEhI2NCEeigKYG_E9Yqpw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjEhImNCEeigKYG_E9Yqpw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xjEhI2NCEeigKYG_E9Yqpw" value="1"/>
       </ownedEnd>
       <ownedEnd xmi:id="_xjEhJGNCEeigKYG_E9Yqpw" name="rooms" type="_c8lYAGLDEeigKYG_E9Yqpw" aggregation="shared" association="_xjEhIGNCEeigKYG_E9Yqpw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjEhJWNCEeigKYG_E9Yqpw"/>

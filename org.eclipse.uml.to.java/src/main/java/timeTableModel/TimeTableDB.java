@@ -2,6 +2,7 @@
  * 2018, All rights reserved.
  *******************************************************************************/
 package timeTableModel;
+
 import java.util.*;
 
 // Start of user code (user defined imports)
@@ -17,17 +18,17 @@ public class TimeTableDB {
 	/**
 	 * Description of the property timeTables.
 	 */
-	public Hashtable<String,TimeTable> timeTables ;
+	public Hashtable<TimeTable> timeTables = new Hashtable<TimeTable>();
 
 	/**
 	 * Description of the property file.
 	 */
-	private Object file = null;
+	private Object file = ;
 
 	/**
 	 * Description of the property rooms.
 	 */
-	public Hashtable<String,Room> rooms ;
+	public Hashtable<String,Room> rooms = new Hashtable<String,Room>();
 
 	// Start of user code (user defined attributes for TimeTableDB)
 
@@ -36,12 +37,9 @@ public class TimeTableDB {
 	/**
 	 * The constructor.
 	 */
-	public TimeTableDB(String _file) {
+	public TimeTableDB() {
 		// Start of user code constructor for TimeTableDB)
 		super();
-		rooms = new Hashtable<String,Room>();
-		timeTables = new Hashtable<String,TimeTable>();
-		file = _file;
 		// End of user code
 	}
 
@@ -68,7 +66,7 @@ public class TimeTableDB {
 	 * Returns timeTables.
 	 * @return timeTables 
 	 */
-	public Hashtable<String,TimeTable> getTimeTables() {
+	public Hashtable<TimeTable> getTimeTables() {
 		return this.timeTables;
 	}
 
@@ -92,7 +90,7 @@ public class TimeTableDB {
 	 * Returns rooms.
 	 * @return rooms 
 	 */
-	public Hashtable<String,Room> getRooms() {
+	public Hashtable<Room> getRooms() {
 		return this.rooms;
 	}
 
