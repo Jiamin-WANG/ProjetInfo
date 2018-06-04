@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="lib/jdom-2.0.6.jar"/>
 	<classpathentry kind="lib" path="lib/userP.jar"/>
 	<classpathentry kind="lib" path="lib/viewP.jar"/>
+	<classpathentry kind="lib" path="/edu.telecom.lille.projet.info.etudiantComplete/lib/timeTableP.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
